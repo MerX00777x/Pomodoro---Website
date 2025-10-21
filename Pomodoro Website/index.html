@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta charset="utf-8" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="Style.css" />
+</head>
+
+<body>
+  <video id="bg-video" autoplay muted loop playsinline>
+    <source src="Blueblurgradientbackground.mp4" type="video/mp4">
+  </video>
+  <main>
+    <div class="maincontent">
+      <div class="timerselection">
+        <div class="pomodoro">Pomodoro</div>
+        <div class="short-break">Short Break</div>
+        <div class="long-break">Long Break</div>
+      </div>
+      <div class="timer">
+        <p>25:00</p>
+      </div>
+      <div class="controllers">
+        <button class="start">Start</button>
+        <button class="reset"><img src="rotate-right.png" alt="Reset" /></button>
+        <button class="settings"><img src="settings.png" alt="Settings" /></button>
+      </div>
+    </div>
+  </main>
+  <div class="fullscreen">
+    <button class="fullscreen-btn"><img src="Expand.png" alt="Fullscreen" /></button>
+  </div>
+  <!-- <div class="playmusic">
+    <p>Play Music</p>
+  </div> -->
+  <div class="bottomleft">
+    <iframe class="music-frame" width="380px" height="400px" frameborder="0" allowfullscreen
+      data-src="https://open.spotify.com/embed/playlist/57jkPGdxa2tEzM5gGsBznQ?si=fiyTHViNTTOiCQ3cUnd0bg"
+      allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+      src="https://open.spotify.com/embed/playlist/57jkPGdxa2tEzM5gGsBznQ?si=fiyTHViNTTOiCQ3cUnd0bg">
+    </iframe>
+  </div>
+  <div class="music-controls">
+    <button>Listen to music</button>
+  </div>
+  <footer>
+    <p>Made by fer._irst</p>
+  </footer>
+  <script src="script.js"></script>
+</body>
+
+</html>
